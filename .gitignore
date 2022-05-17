@@ -1,8 +1,4 @@
-*.png
-*.PNG
+data/
 *.idea
-*.jpg
-*.jpeg
 *.npy
-demo_imgs/
 
