@@ -43,7 +43,6 @@ for f in tqdm.tqdm(os.listdir(handwritten)):
     flip_sh = cv.filter2D(src=flipr, ddepth=-1, kernel=KERNEL)
     cv.imwrite("data/handwritten-augmented/"+aug_6,flip_sh)
 
-
     # plt.figure(figsize=[25,18])
     # plt.subplot(1,6,1)
     # plt.imshow(img,cmap='gray')
