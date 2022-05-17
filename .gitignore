@@ -1,5 +1,6 @@
 *.png
 *.PNG
-samples/
+*.idea
+*.jpg
 *.npy
 
